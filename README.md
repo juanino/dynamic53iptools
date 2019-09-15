@@ -26,4 +26,4 @@ that "expensive" elastic ip. Besides, this is cooler.
 You would actually have to change a few of the files to make this work for yourself. The SQS examples are solid but they call a shell script to make the route53 changes
 becaue I'm lazy.
 
-Also note the queue receiver "sqs_fetch_even.py" crashes after running a long time. I wrapped it in a util to restart it which is too nasty to check in at this point.
+Also note the queue receiver "sqs_fetch_event.py" crashes after running a long time. I wrapped it in a util to restart it which is too nasty to check in at this point.
