@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-
 # this utility is used tell SQS a machine booted or otherwise changed
 # so a control box can process a hostname change or other functions
 
